@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*               font-family: 'Montserrat', sans-serif;            */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/*               font-family: 'Kaushan Script', cursive;                        */
 
 *{
     margin: 0;
@@ -37,4 +39,49 @@ header{
     font-family: 'Montserrat', sans-serif; 
     font-weight: normal;
     margin-left: 60px;
+    text-transform: uppercase;
+}
+.header-main__h2{
+    font-family: 'Kaushan Script', cursive;  
+    font-weight: normal;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    /* line-height: 90px; */
+    margin-top: 140px;
+    margin-bottom: 15px;
+}
+.header-main__h1{
+    font-size: 150px;
+    line-height: 140px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    color: white;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+}
+.header-main__h1::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header-main__button{
+    border: 3px solid white;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 125px;
 }
