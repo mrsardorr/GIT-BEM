@@ -8,7 +8,33 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    background-image: url(img/Layer\ 15.jpg);
+    background-size: cover;
+}
 header{
     max-width: 1200px;
     margin: auto;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: flex-end;
+}
+.header-nav__logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+.header-nav__ul{
+    display: flex;
+}
+.header-nav__ul__li__a{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal;
+    margin-left: 60px;
 }
