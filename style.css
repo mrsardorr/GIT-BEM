@@ -41,6 +41,24 @@ header{
     font-weight: normal;
     margin-left: 60px;
     text-transform: uppercase;
+    transition: .3s;
+    position: relative;
+}
+.header-nav__ul__li__a:hover{
+    color: #fbdd89;
+}
+.header-nav__ul__li__a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #fbdd89;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+}
+.header-nav__ul__li__a:hover::after{
+    width: 100%;
 }
 .header-main__h2{
     font-family: 'Kaushan Script', cursive;  
@@ -85,6 +103,7 @@ header{
     display: block;
     margin: auto;
     margin-top: 125px;
+    cursor: pointer;
 }
 .header-footer{
     display: flex;
